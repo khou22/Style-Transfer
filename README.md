@@ -1,5 +1,7 @@
 # neural-style
 
+Repository: [GitHub](https://github.com/anishathalye/neural-style)
+
 An implementation of [neural style][paper] in TensorFlow.
 
 This implementation is a lot simpler than a lot of the other ones out there,
