@@ -3,5 +3,11 @@
 Using the `neural-style`. Usage:
 
 ``` bash
-python neural_style.py --content examples/Emmie-Sass.jpg --styles examples/pear_earrings.jpg --output emmie-pearl-earring.jpg
+python neural_style.py --contents content/fall-leaves.JPG --styles styles/renoir-landscape.jpg --output Output/fall-leaves-renoir.jpg
+```
+
+Download imagenet:
+
+``` bash
+curl http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-16.mat --output imagenet-vgg-verydeep-19.mat
 ```
