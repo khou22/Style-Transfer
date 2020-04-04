@@ -16,13 +16,13 @@ from PIL import Image
 # default arguments
 CONTENT_WEIGHT = 5e1 # Default 5e0
 CONTENT_WEIGHT_BLEND = 1
-STYLE_WEIGHT = 5e0 # Default 5e2
+STYLE_WEIGHT = 5e2 # Default 5e2
 TV_WEIGHT = 1e2
 STYLE_LAYER_WEIGHT_EXP = 1
 LEARNING_RATE = 1e1
 BETA1 = 0.9
 BETA2 = 0.999
-EPSILON = 1e-08
+EPSILON = 1e-06 # Default 1e-08
 STYLE_SCALE = 1.0
 ITERATIONS = 1000 # Default 1000
 VGG_PATH = 'imagenet-vgg-verydeep-19.mat'
