@@ -4,6 +4,7 @@ import os
 
 import numpy as np
 import scipy.misc
+import matplotlib.pyplot
 
 from stylize import stylize
 
@@ -198,7 +199,7 @@ def main():
 
 
 def imread(path):
-    img = scipy.misc.imread(path).astype(np.float)
+    img = matplotlib.pyplot.imread(path).astype(np.float)
     if len(img.shape) == 2:
         # grayscale
         img = np.dstack((img,img,img))
